@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.restaurant-page {
+    width: 100%;
+}
+
+/* Spin animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin 10s linear infinite;
+}
+
+.restaurant-page-bg-1 {
+    background-image: url('../img/Restaurant-image/bg-img-111.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -125px;
+    ;
+}
+
+.restaurant-page-bg-2 {
+    background-image: url('../img/Restaurant-image/bg-img-13.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 2px 132px;
+    background-size: 55px;
+}
+
+.restaurant-title {
+    color: var(--primary-color9);
+}
+
+.restaurant-page-text-bg-img {
+    background-image: url('../img/Restaurant-image/bg img 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-x: right;
+}
+
+.restaurant-page-btn {
+    background-color: var(--primary-color9);
+    color: var(--primary-color4);
+    border-radius: 20px;
+    height: 50px;
+    /* width: 150px; */
+}
+
+.restaurant-page-btn-in {
+    color: var(--primary-color9);
+    border-radius: 20px;
+    display: flex;
+    align-self: center;
+    height: 50px;
+    /* width: 150px; */
+
+}
+
+.resturant-page-start-text {
+    color: var(--primary-color4);
+    gap: 15px;
+    /* height: 50px;
+    width: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.resturant-page-start-text-in {
+    color: var(--primary-color9);
+    gap: 15px;
+    /* height: 50px;
+    width: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resturant-page-start-button:hover {
+    background-color: unset;
+}
+
+
+.resturant-page-start-button {
+    height: 50px;
+}
+
+.restaurant-page-content {
+    background-image: url('../img/Restaurant-image/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary-color4);
+}
+
+.restaurent-page-input-email {
+    position: absolute;
+    width: 50%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .restaurent-page-card-bg-img{
+    background-image: ;
+} */
+.restaurent-page-input-btn {
+    position: relative;
+    display: flex;
+}
+
+.restaurent-page-card {
+    border: none;
+    border-top: 5px solid var(--primary-color9);
+    border-radius: 15px;
+}
+
+.restaurent-page-card:hover {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 16px 25px -5px, rgba(0, 0, 0, 0.3) 0px 15px 15px -22px;
+}
+
+/* slider card start here  */
+.rastaurent-page-slide-card {
+    border: none;
+    border-radius: 12px;
+}
+
+.rastaurent-page-slide-card:hover {
+    border-top: none;
+    border: 2px solid rgba(0, 0, 0, 10%);
+    border-bottom-right-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 25%) 0px 5px 10px;
+}
+
+
+.restaurant-page-card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -90px;
+}
+
+.restaurant-page-price-tag {
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    background-color: #17a2b8;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.restaurant-page-card-title {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.restaurant-page-card-text {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* slider card end here  */
+/* comment start here  */
+.rastaurent-page-comment {
+    border: none;
+    border-radius: 12px;
+}
+
+.rastaurent-page-comment:hover {
+    border-top: none;
+    border: 2px solid rgba(0, 0, 0, 10%);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+
+    box-shadow: rgba(0, 0, 0, 25%) 0px 5px 10px;
+}
+
+.restaurant-page-comment-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -40px;
+}
+
+.restaurant-page-comment-text {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.restaurant-page-comment-title {
+    font-size: 1.1em;
+    margin-top: 15px;
+
+}
+
+/* banner css code  */
+.newsletter-section {
+    background-image: url('../img/Restaurant-image/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 75px 0 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.newsletter-text {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.newsletter-input {
+    margin: 0 auto;
+}
+
+.search-container {
+    position: relative;
+    width: 70%;
+    /* max-width: 650px; */
+    margin: 0 auto;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 12px 100px 10px 15px;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+.search-container button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #00ADD4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* banner css code  */
+@media(min-width:320px) and (max-width:425px) {
+
+    .resturant-page-start-button,
+    .resturant-page-start-button-in {
+        font-size: 12px;
+    }
+
+    .restaurent-btn-size {
+        font-size: 10px;
+    }
+}
